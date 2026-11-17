@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Elevated Illustration Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="36dp"
+        app:cardBackgroundColor="@color/card_bg"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="6dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_blue_gradient"
+            android:padding="36dp">
+
+            <ImageView
+                android:id="@+id/imgOnboarding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Onboarding Illustration"
+                android:src="@drawable/ic_rollcall_logo" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvOnboardingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Smart Attendance"
+        android:textAlignment="center"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tvOnboardingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="4dp"
+        android:text="Mark classroom attendance quickly with secure QR scanning."
+        android:textAlignment="center"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp" />
+</LinearLayout>

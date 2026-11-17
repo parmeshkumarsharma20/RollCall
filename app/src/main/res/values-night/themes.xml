@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark Theme for RollCall -->
+    <style name="Base.Theme.RollCall" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6C91FF</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#1E2C5B</item>
+        <item name="colorOnPrimaryContainer">#EAF1FF</item>
+        <item name="colorSecondary">#2457D6</item>
+        <item name="colorTertiary">@color/yellow_accent</item>
+        <item name="android:windowBackground">#101B45</item>
+        <item name="android:statusBarColor">#101B45</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#1B2A53</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+
+    <style name="Theme.RollCall" parent="Base.Theme.RollCall" />
+</resources>

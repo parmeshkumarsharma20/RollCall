@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- QR Frame Corners (White #FFFFFF) -->
+    <!-- Top-Left Corner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,42 V33 C28,30.2 30.2,28 33,28 H42 V32 H33 C32.4,32 32,32.4 32,33 V42 H28 Z" />
+    <!-- Top-Right Corner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,28 H75 C77.8,28 80,30.2 80,33 V42 H76 V33 C76,32.4 75.6,32 75,32 H66 V28 Z" />
+    <!-- Bottom-Left Corner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,66 V75 C28,77.8 30.2,80 33,80 H42 V76 H33 C32.4,76 32,75.6 32,75 V66 H28 Z" />
+    <!-- Bottom-Right Corner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,66 V75 C76,75.6 75.6,76 75,76 H66 V80 H75 C77.8,80 80,77.8 80,75 V66 H76 Z" />
+
+    <!-- Center Graduation Cap (White #FFFFFF) -->
+    <!-- Diamond Top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,35 L76,45 L54,55 L32,45 Z" />
+    <!-- Cap Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,51 V59 C40,63 46,66 54,66 C62,66 68,63 68,59 V51 L54,58 Z" />
+    <!-- Cap Tassel (Golden Yellow #FFC83D) -->
+    <path
+        android:fillColor="#FFC83D"
+        android:pathData="M72,45.5 V57 C72,58 71.2,59 70.2,59 C69.2,59 68.5,58 68.5,57 V47 Z" />
+
+    <!-- Golden Yellow Checkmark Badge (#FFC83D) -->
+    <path
+        android:fillColor="#FFC83D"
+        android:pathData="M74,68 C74,63 69.9,59 64.9,59 C59.9,59 55.8,63 55.8,68 C55.8,73 59.9,77.1 64.9,77.1 C69.9,77.1 74,73 74,68 Z" />
+    <path
+        android:fillColor="#101B45"
+        android:pathData="M61.8,68.2 L63.8,70.2 L68,65.8 L69,66.8 L63.8,72 L60.8,69 Z" />
+</vector>

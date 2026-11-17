@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774473449890",
+    "project_id": "rollcall-parmesh",
+    "storage_bucket": "rollcall-parmesh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774473449890:android:91b405dda2232130b932fb",
+        "android_client_info": {
+          "package_name": "com.example.rollcall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuYkTW1iBwS49wQppOhD5Kwv5SyGJULyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
